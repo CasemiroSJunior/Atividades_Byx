@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE CURSOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="bootstrap-5.1.3-examples/footers/footers.css"> <!-- footers import css -->
+    <link rel="stylesheet" href="customCss.css">
+</head>
+
+<body>
+
+<body class="flex-column min-vh-100">
+    <div>
+        <div>
+          <nav class="navbar navbar-expand-md navbar-dark custom-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://www.etecbayeux.com.br"><img src="imgs/logos/logoEtecBranco.png"
+                  style="width:10%;height: 7%;" alt="LOGO escola tecnica 'Prof.Armando Bayeux da Silva'"></a>
+              <div class="nav col-md-5 justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html" style="color: cornsilk;">ESCOLA</a>
+                    </li>
+                    <div class="dropdown ">
+                      <button class="btn dropdown-toggle-split" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="true" style="color: cornsilk;">CURSOS</button>
+                      <ul class="dropdown-menu border-3 border-dark" aria-labelledby="dropdownMenuButton1">
+                        <!-- CURSOS MATUTINOS -->
+                        <li><a class="dropdown-item " style="text-align: center;" href="cursos.html"><h3>LISTA DE CURSOS</h3></a></li>
+                        <li><a class="dropdown-item disabled " style="color: cornsilk;border-bottom:4px;border-color: black;text-align: center; background-color:red;">MATUTINOS</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Enfermagem">ENFERMAGEM</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Ensino_Medio">ENSINO MÉDIO</a></li>
+                        <li><a class="dropdown-item "href="https://www.etecbayeux.com.br/?c=Ensino_Medio_Linguagens_Ciencias_Humanas_e_Sociais">ENSINO MÉDIO- LINGUAGENS, CIÊNCIAS HUMANAS E SOCIAIS</a></li>
+                        <li><a class="dropdown-item "href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Automacao_Industrial_Novotec">ENSINO MÉDIO COM HAB. DE TÉCNICO EM AUTOMAÇÃO INDUSTRIAL 
+    -NOVOTEC</a></li>
+    
+                        <!-- CURSOS DIURNOS -->
+    
+                        <li><a class="dropdown-item disabled" style="color: cornsilk;border-bottom:4px;border-color: black;text-align: center; background-color:red;" href="#">DIURNOS</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Enfermagem">ENFERMAGEM</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec">ENSINO MÉDIO COM HAB. DE TÉCNICO EM ADMINISTRAÇÃO 
+    -NOVOTEC</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Mecatronica_Novotec">ENSINO MÉDIO COM HAB. DE TÉCNICO EM MECATRÔNICA 
+    -NOVOTEC</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Desen_de_Sist_Novotec_Hibrido">ENSINO MÉDIO COM HAB. DE TÉCNICO EM DESEN. DE SIST. 
+    -NOVOTEC HIBRIDO</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec_Hibrido">ENSINO MÉDIO COM HAB. DE TÉCNICO EM ADMINISTRAÇÃO 
+    -NOVOTEC HIBRIDO</a></li>
+                        <li><a class="dropdown-item disabled" style="color: cornsilk;border-bottom:4px;border-color: black;text-align: center; background-color:red;" href="#">NOTURNOS</a></li>
+    
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Logistica">LOGÍSTICA</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Administracao">ADMINISTRAÇÃO</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Recursos_Humanos">RECURSOSHUMANO</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Financas">FINANÇAS</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Desenvolvimento_de_Sistemas">DESENVOLVIMENTO DE SISTEMAS</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Mecanica">MECÂNICA</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Eletroeletronica">ELETROELETRÔNICA</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Eletromecanica">ELETROMECÂNICO</a></li>
+                        <li><a class="dropdown-item disabled" style="color: cornsilk;border-bottom:4px;border-color: black;text-align: center; background-color:red;" href="#">INTREGRAIS</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Desenvolvimento_de_Sistemas_Integrado_ao_Ensino_Medio">DESENVOLVIMENTO DE SISTEMAS INTEGRADO AO ENSINO MÉDIO</a></li>
+                        <li><a class="dropdown-item " href="https://www.etecbayeux.com.br/?c=Administracao_Integrado_ao_Ensino_Medio">ADMINISTRAÇÃO INTEGRADO AO ENSINO MÉDIO</a></li>
+                      </ul>
+                    </div>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" style="color: cornsilk;">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" style="color: cornsilk;">LOCALIZAÇÃO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" style="color: cornsilk;">CONTATO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="sobre.html" style="color: cornsilk;">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: cornsilk;">VESTIBULINHO</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+<!-- FIM DA NAVBAR -->
+
+
+        <!-- SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="bootstrap" viewBox="0 0 118 94">
+                <title>Bootstrap</title>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+                </path>
+            </symbol>
+            <symbol id="facebook" viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </symbol>
+            <symbol id="instagram" viewBox="0 0 16 16">
+                <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </symbol>
+            <symbol id="twitter" viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </symbol>
+        </svg>
+        <!-- FIM SVG -->
+
+        <!-- CARDS -->
+        <div class="container mt-4">
+            <div class="alert alert-primary" role="alert">
+                <H5>MATUTINOS</H5>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 mb-4 mt-4">
+                    <div class="card">
+                        <img width="300px" height="300px"
+                            src="https://www.faculdadedetimbauba.edu.br/novosite/wp-content/uploads/2018/01/35a036173085b4955eb943ec116fcf4d84fa2612-750x419.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-footer" style="text-align: center;">O TÉCNICO EM ENFERMAGEM é o
+                                profissional que atua na promoção, prevenção, recuperação e reabilitação dos processos
+                                saúde-doença. Colabora com o atendimento das necessidades de saúde do paciente/ cliente,
+                                família e comunidade, em todas as faixas etárias. Desenvolve ações de educação para o
+                                autocuidado, bem como de segurança no trabalho e de biossegurança nas ações de
+                                enfermagem, entre outras funções</div>
+                            <h2 class="card-title ">ENFERMAGEM<br>
+                                <h5 style="text-align: center;">MATUTINO/DIURNO</h5>
+                            </h2>
+                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000" alt="">
+                            </h5>
+                            <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                            <a href="https://www.etecbayeux.com.br/?c=Enfermagem" class="btn"
+                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                DETALHES</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 mt-4">
+                    <div class="card">
+                        <img width="300px" height="300px"
+                            src="https://images.shiksha.com/mediadata/images/articles/1586528603php1km08b.jpeg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-footer" style="text-align: center;">O ensino médio destina-se aos
+                                candidatos
+                                que tenham concluído o ensino fundamental e compõe-se por duas partes: Base Nacional
+                                Comum
+                                e Parte Diversificada. As disciplinas da Base Nacional Comum, direcionadas para a
+                                formação geral do estudante, são as já tradicionalmente estudadas, como Língua
+                                Portuguesa e Literatura, Matemática, História,
+                                Geografia, Química, Física, Biologia, Educação Física e Artes.</div>
+                            <h2 class="card-title ">ENSINO MÉDIO</h2>
+                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000" alt="">
+                            </h5>
+                            <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                            <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio" class="btn"
+                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                DETALHES</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div class="card">
+                            <img width="300px" height="300px"
+                                src="https://nossaciencia.com.br/wp-content/uploads/2017/12/Imagem-Ci%C3%AAncias-humanas-artigo-Rosilene-1024x984.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="card-footer" style="text-align: center;">O aluno egresso do Ensino Médio
+                                    deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e
+                                    competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades
+                                    para a solução de problemas do mundo real, mobilizando linguagens, raciocínio
+                                    lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos,
+                                    artísticos e culturais, no contexto da sociedade contemporânea, além de competências
+                                    pessoais como capacidade de trabalhar de modo autônomo e também colaborativo,
+                                    respeitando valores e atitudes éticas e ambientais.</div>
+                                <h2 class="card-title ">ENSINO MÉDIO- LINGUAGENS, CIÊNCIAS HUMANAS E SOCIAIS</h2>
+                                <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                        src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                        alt=""></h5>
+                                <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_Linguagens_Ciencias_Humanas_e_Sociais"
+                                    class="btn"
+                                    style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                    DETALHES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div class="card">
+                            <img width="300px" height="300px"
+                                src="https://s2.glbimg.com/im4BIBwjqUtzju-7z00jZunifkw=/0x0:424x237/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/2/W/Pq8SQjQDyyLHvBRh9JVg/9779-imagem-automacao-industrial-424x237.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="card-footer" style="text-align: center;">Nesta modalidade de ensino, baseada
+                                    na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a
+                                    formação de Técnico em Automação Industrial, numa jornada de até 30 aulas semanais
+                                    (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá
+                                    concluído o Ensino Médio e obterá, também, o diploma de Técnico em Automação
+                                    Industrial, com validade nacional.</div>
+                                <h2 class="card-title ">ENSINO MÉDIO COM HAB. DE TÉCNICO EM AUTOMAÇÃO INDUSTRIAL -
+                                    NOVOTEC</h2>
+                                <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                        src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                        alt=""></h5>
+                                <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Automacao_Industrial_Novotec"
+                                    class="btn"
+                                    style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                    DETALHES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <H5>DIURNOS</H5>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div class="card">
+                            <img width="300px" height="300px"
+                                src="https://f.hubspotusercontent00.net/hubfs/2973708/ADM.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <div class="card-footer" style="text-align: center;">O TÉCNICO EM ADMINISTRAÇÃO é o
+                                    profissional que adota postura ética na execução da rotina administrativa, na
+                                    elaboração do planejamento da produção e materiais, recursos humanos, financeiros e
+                                    mercadológicos. Realiza atividades de controle e auxilia nos processos de direção,
+                                    utilizando ferramentas da informática. Fomenta ideias e práticas empreendedoras.
+                                    Desempenha suas atividades observando as normas de segurança, saúde e higiene do
+                                    trabalho, bem como as de preservação ambiental.</div>
+                                <h2 class="card-title ">ENSINO MÉDIO COM HAB. DE TÉCNICO EM ADMINISTRAÇÃO -NOVOTEC</h2>
+                                <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                        src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                        alt="">
+                                </h5>
+                                <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec"
+                                    class="btn"
+                                    style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                    DETALHES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div class="card">
+                            <img width="300px" height="300px"
+                                src="https://westgroup.com.br/site/wp-content/uploads/2019/02/tecnico-em-mecatronica.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="card-footer" style="text-align: center;">O TÉCNICO EM MECATRÔNICA é o
+                                    profissional que atua no projeto, montagem e instalação de máquinas e equipamentos
+                                    automatizados e sistemas robotizados. Realiza medições, programação e opera sistemas
+                                    mecatrônicos, conforme especificações técnicas. Utiliza softwares específicos e
+                                    linguagens de programação. Pode coordenar equipes e treinamento operacional, nos
+                                    limites de suas atribuições. Atua na melhoria dos sistemas convencionais de
+                                    produção. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com
+                                    as normas técnicas e de higiene, segurança, qualidade e proteção ao meio ambiente.
+                                    Integra equipamentos mecânicos e eletrônicos e executa procedimentos de controle da
+                                    qualidade e gestão.</div>
+                                <h2 class="card-title ">ENSINO MÉDIO COM HAB. DE TÉCNICO EM MECATRÔNICA - NOVOTEC</h2>
+                                <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2" style="width: px;height: 17px;"
+                                        src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                        alt="">
+                                </h5>
+                                <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Mecatronica_Novotec"
+                                    class="btn"
+                                    style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                    DETALHES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mt-4">
+                            <div class="card">
+                                <img width="300px" height="300px"
+                                    src="https://s2.glbimg.com/-9SG9Zq4RM0WEwxyuAGSjQ7A660=/0x0:1400x788/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/b/b/dOW43BSqGMXZNMWzWxHw/destacada-1400x788-sis-0421.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-footer" style="text-align: center;">O curso técnico em
+                                        desenvolvimento de sistemas visa habilitar um profissional versátil, que irá
+                                        criar, projetar, desenvolver e configurar programas, softwares e sistemas. O
+                                        estudante aprenderá noções sobre banco de dados, sistemas baseados em web e
+                                        programação distribuída. O aluno sairá preparado para poder trabalhar nos mais
+                                        diversos setores, já que praticamente todos os setores da sociedade hoje tem a
+                                        informática presente.</div>
+                                    <h2 class="card-title ">ENSINO MÉDIO COM HAB. DE TÉCNICO EM DESEN. DE SIST. -
+                                        NOVOTEC HIBRIDO</h2>
+                                    <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                            style="width: 19px;height: 17px;"
+                                            src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                            alt=""></h5>
+                                    <p class="card-text">EE Prof. João Batista Leme (Extensão)</p>
+                                    <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Desen_de_Sist_Novotec_Hibrido"
+                                        class="btn"
+                                        style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                        DETALHES</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 mt-4">
+                            <div class="card">
+                                <img width="300px" height="300px"
+                                    src="https://unilago.riopreto.br/wp-content/uploads/2021/06/ADM_UNILAGO-min.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-footer" style="text-align: center;">O estudante neste curso
+                                        integrado irá desenvolver as habilidades necessárias para exercer sua função nas
+                                        mais diversas organizações, em setores como: compras, produção, vendas e
+                                        Recursos Humanos. Independente da área que o estudante seguir ele estará
+                                        capacitado para a administração de: clientes, funcionários, empreendimentos,
+                                        finanças e outras. Além disso, o conteúdo técnico está alinhado com os
+                                        componentes curriculares do ensino médio, então ele também vai aprender este
+                                        conteúdo nas atividades práticas.</div>
+                                    <h2 class="card-title ">ENSINO MÉDIO COM HAB. DE TÉCNICO EM ADMINISTRAÇÃO - NOVOTEC
+                                        HIBRIDO</h2>
+                                    <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                            style="width: 19px;height: 17px;"
+                                            src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                            alt=""></h5>
+                                    <p class="card-text">EE Prof. João Batista Leme (Extensão)</p>
+                                    <a href="https://www.etecbayeux.com.br/?c=Ensino_Medio_com_Hab_de_Tecnico_em_Administracao_Novotec_Hibrido"
+                                        class="btn"
+                                        style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                        DETALHES</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary" role="alert">
+                        <H5>NOTURNOS</H5>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 mb-4 mt-4">
+                            <div class="card">
+                                <img width="300px" height="300px"
+                                    src="https://www.grupotpc.com/wp-content/uploads/2021/08/post_thumbnail-8b038aeb1f4998ef7428312a1be7aa8d.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-footer" style="text-align: center;">O TÉCNICO EM LOGÍSTICA é o
+                                        profissional que executa e colabora na gestão dos processos de planejamento,
+                                        operação e controle de programação da produção de bens e serviços, programação
+                                        de manutenção de máquinas e de equipamentos, de compras, de recebimento, de
+                                        armazenamento, de estoques, de movimentação, de expedição, transporte e
+                                        distribuição de materiais e produtos, utilizando tecnologia de informação.
+                                        Presta atendimento aos clientes. Implementa os procedimentos de controle de
+                                        custos, qualidade, segurança e higiene do trabalho no sistema logístico.</div>
+                                    <h2 class="card-title ">LOGÍSTICA</h2>
+                                    <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                            style="width: 19px;height: 17px;"
+                                            src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                            alt="">
+                                    </h5>
+                                    <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                    <a href="https://www.etecbayeux.com.br/?c=Logistica" class="btn"
+                                        style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                        DETALHES</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 mt-4">
+                            <div class="card">
+                                <img width="300px" height="300px"
+                                    src="https://www.fai-mg.br/blog/wp-content/uploads/2019/10/administracao.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-footer" style="text-align: center;">O TÉCNICO EM ADMINISTRAÇÃO é o
+                                        profissional que adota postura ética na execução da rotina administrativa, na
+                                        elaboração do planejamento da produção e materiais, recursos humanos,
+                                        financeiros e mercadológicos. Realiza atividades de controles e auxilia nos
+                                        processos de direção utilizando ferramentas da informática básica. Fomenta
+                                        ideias e práticas empreendedoras. Desempenha suas atividades observando as
+                                        normas de segurança, saúde e higiene do trabalho, bem como as de preservação
+                                        ambiental.</div>
+                                    <h2 class="card-title ">ADMINISTRAÇÃO</h2>
+                                    <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                            style="width: 19px;height: 17px;"
+                                            src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                            alt="">
+                                    </h5>
+                                    <p class="card-text">Etec Prof. Armando Bayeux da Silva <br>EMEF João Ruffino
+                                        (Extensão)
+                                    </p>
+                                    <a href="https://www.etecbayeux.com.br/?c=Administracao" class="btn"
+                                        style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                        DETALHES</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-4 mt-4">
+                                <div class="card">
+                                    <img width="300px" height="300px"
+                                        src="https://blog.vb.com.br/wp-content/uploads/2017/06/post_rh.png"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="card-footer" style="text-align: center;">O TÉCNICO EM RECURSOS
+                                            HUMANOS é o profissional que detém aptidão para intermediar as relações
+                                            interpessoais e éticas de uma organização. É habilitado para trabalhar na
+                                            execução das rotinas administrativas de pessoal com base na Legislação
+                                            Trabalhista e Previdenciária. Auxilia no controle e avaliação de subsistemas
+                                            de gerenciamento e contribui para a implementação das estratégias
+                                            organizacionais. Compromete-se com o desenvolvimento humano, administra
+                                            pessoal, promove ações de treinamento, identifica e sugere plano de
+                                            benefícios. Descreve e classifica postos de trabalho, aplica questionários e
+                                            processa informações acerca dos trabalhadores.</div>
+                                        <h2 class="card-title ">RECURSOS HUMANOS</h2>
+                                        <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                style="width: 19px;height: 17px;"
+                                                src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                alt=""></h5>
+                                        <p class="card-text">E.E. Heloísa Lemenhe Marasca (Extensão)</p>
+                                        <a href="https://www.etecbayeux.com.br/?c=Recursos_Humanos" class="btn"
+                                            style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAISDETALHES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4 mt-4">
+                                <div class="card">
+                                    <img width="300px" height="300px"
+                                        src="https://www.suno.com.br/wp-content/uploads/2017/12/financas-pessoais.jpg.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="card-footer" style="text-align: center;">O TÉCNICO EM FINANÇAS é o
+                                            profissional que executa operações relativas a serviços e produtos
+                                            financeiros e bancários, lançamentos contábeis, ordens de pagamento e contas
+                                            a pagar e receber. Coleta e organiza informações para elaboração do
+                                            orçamento empresarial. Identifica os diversos indicadores econômicos e
+                                            financeiros e sua importância para as análises gerenciais e tomadas de
+                                            decisões com transparência e ética. Auxilia na análise de crédito para
+                                            pessoas físicas e jurídicas, elabora fluxos de caixa, lançamentos
+                                            financeiros, ordens de pagamento, cobranças, atendimento a clientes e
+                                            fornecedores e analisa demonstrativos financeiros.</div>
+                                        <h2 class="card-title ">FINANÇAS</h2>
+                                        <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                style="width: 19px;height: 17px;"
+                                                src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                alt=""></h5>
+                                        <p class="card-text">E.E. Heloísa Lemenhe Marasca (Extensão)</p>
+                                        <a href="https://www.etecbayeux.com.br/?c=Financas" class="btn"
+                                            style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                            DETALHES</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4 mt-4">
+                                <div class="card">
+                                    <img width="300px" height="300px"
+                                        src="https://anhanguera.edu.br/wp-content/uploads/bg-ads-01_1920px.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="card-footer" style="text-align: center;">O TÉCNICO EM
+                                            DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas.
+                                            Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza
+                                            ambientes de desenvolvimento e linguagens de programação específica. Modela,
+                                            implementa e mantém bancos de dados.
+
+                                            Eixo Tecnológico: INFORMAÇÃO E COMUNICAÇÃO
+
+                                            Mercado de trabalho: Empresas e departamentos de desenvolvimento de sistemas
+                                            em organizações governamentais e não governamentais, podendo também atuar
+                                            como profissional autônomo.</div>
+                                        <h2 class="card-title ">DESENVOLVIMENTO DE SISTEMAS</h2>
+                                        <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                style="width: 19px;height: 17px;"
+                                                src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                alt="">
+                                        </h5>
+                                        <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                        <a href="https://www.etecbayeux.com.br/?c=Desenvolvimento_de_Sistemas"
+                                            class="btn"
+                                            style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                            DETALHES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4 mt-4">
+                                <div class="card">
+                                    <img width="300px" height="300px"
+                                        src="https://guiadovestibulinho.com.br/wp-content/uploads/2019/08/Sem-t%C3%ADtulo.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="card-footer" style="text-align: center;">O TECNICO EM MECÂNICA é o
+                                            profissional que elabora projetos mecânicos e sistemas automatizados.
+                                            Planeja, aplica e controla procedimentos de instalação e de manutenção
+                                            mecânica de máquinas e equipamentos. Desenvolve e controla processos de
+                                            fabricação e montagem de conjuntos mecânicos. Aplica técnicas de medição e
+                                            ensaios. Especifica materiais para construção mecânica. Elabora
+                                            documentação, realiza compras e vendas técnicas e cumpre normas e
+                                            procedimentos de segurança no trabalho e de preservação ambiental.
+                                            Eixo Tecnológico: CONTROLE E PROCESSOS INDUSTRIAIS Mercado de trabalho:
+                                            Indústrias de produtos de metal, de artigos de borracha e plástico, fábricas
+                                            de máquinas, equipamentos e componentes mecânicos, aparelhos e materiais
+                                            elétricos e de equipamentos de instrumentação; laboratórios de Controle de
+                                            Qualidade, de manutenção e pesquisa no setor produtivo mecânico; prestadoras
+                                            de serviços.</div>
+                                        <h2 class="card-title ">MECÂNICA</h2>
+                                        <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                style="width: 19px;height: 17px;"
+                                                src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                alt="">
+                                        </h5>
+                                        <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                        <a href="https://www.etecbayeux.com.br/?c=Mecanica" class="btn"
+                                            style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                            DETALHES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mt-4">
+                                    <div class="card">
+                                        <img width="300px" height="300px"
+                                            src="https://www.senaipr.org.br/dbimages/211264_img.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="card-footer" style="text-align: center;">O TÉCNICO EM
+                                                ELETROELETRÔNICA é o profissional que planeja e executa a instalação e a
+                                                manutenção preventiva, preditiva e corretiva de equipamentos e
+                                                instalações eletroeletrônicas industriais. Projeta e instala sistemas de
+                                                acionamento, automação e controle eletroeletrônicos. Realiza medições e
+                                                testes, como também elabora, desenvolve e executa projetos de
+                                                instalações elétricas em edificações em baixa tensão. Trabalha em
+                                                conformidade com normas e procedimentos técnicos e de qualidade,
+                                                segurança, higiene, saúde e preservação ambiental. Propõe o uso
+                                                eficiente da energia elétrica. Elabora documentação técnica.
+
+                                                Eixo Tecnológico: CONTROLE E PROCESSOS INDUSTRIAIS
+
+                                                Mercado de trabalho: Indústria eletroeletrônica; indústria de manufatura
+                                                e de processos; empresas de manutenção e automação; laboratórios de
+                                                controle e de qualidade, de manutenção e pesquisa; empresas de
+                                                consultoria na área; desenvolvimento de projetos eletroeletrônicos e
+                                                prestação de serviços.</div>
+                                            <h2 class="card-title ">ELETROELETRÔNICA</h2>
+                                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                    style="width: 19px;height: 17px;"
+                                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                    alt=""></h5>
+                                            <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                            <a href="https://www.etecbayeux.com.br/?c=Eletroeletronica" class="btn"
+                                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                                DETALHES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 mt-4">
+                                    <div class="card">
+                                        <img width="300px" height="300px"
+                                            src="https://www.etecbayeux.com.br//_imgs/curso/5ae3047d66105.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="card-footer" style="text-align: center;">O perfil traçado pelas
+                                                empresas para esse trabalhador, tendo em vista as tendências de técnico
+                                                demandado pelo mercado de trabalho atual e a descentralização da
+                                                atividade produtiva apoiada na flexibilidade da produção e dos novos
+                                                padrões de uso do trabalho, diz respeito a um técnico generalista, tendo
+                                                condição de atuar eficazmente em diversos campos de conhecimentos e
+                                                aplicações tecnológicas. Assim sendo, para o exercício da profissão, são
+                                                necessários sólidos conhecimentos dos aspectos produtivos e tecnológicos
+                                                deste setor, como também criatividade, disciplina e senso de qualidade;
+                                                liderança, multificionalidade, capacidade de trabalhar em equipe e
+                                                espírito empreendedor. (MEC – Referenciais Curriculares Nacionais da
+                                                Educação Profissional de Nível Técnico).
+
+                                                Eixo Tecnológico: CONTROLE E PROCESSOS INDUSTRIAIS
+
+                                                Mercado de trabalho: Empresas de manutenção e automação industrial;
+                                                indústrias; laboratórios de controle de qualidade, de manutenção e
+                                                pesquisa; concessionárias de energia.</div>
+                                            <h2 class="card-title ">ELETROMECÂNICO</h2>
+                                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                    style="width: 19px;height: 17px;"
+                                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                    alt=""></h5>
+                                            <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                            <a href="https://www.etecbayeux.com.br/?c=Eletroeletronica" class="btn"
+                                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                                DETALHES</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="alert alert-primary" role="alert">
+                                <H5>INTEGRAIS</H5>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mt-4">
+                                    <div class="card">
+                                        <img width="300px" height="300px"
+                                            src="https://www.tuiuti.edu.br/hubfs/analise%20e%20desenvolvimento%20de%20sistemas%20utp.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="card-footer" style="text-align: center;">Nesta modalidade de
+                                                ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a
+                                                formação de Técnico em Desenvolvimento de Sistemas, numa jornada de até
+                                                40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao
+                                                final do curso, o aluno terá concluído o Ensino Médio e obterá, também,
+                                                o diploma de Técnico em Desenvolvimento de Sistemas, com validade
+                                                nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM
+                                                DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta
+                                                sistemas. Constrói, documenta, realiza testes e mantém sistemas de
+                                                informação. Utiliza ambientes de desenvolvimento e linguagens de
+                                                programação específica. Modela, implementa e mantém bancos de dados.
+
+                                                Eixo Tecnológico: INFORMAÇÃO E COMUNICAÇÃO
+
+                                                Mercado de trabalho: Empresas e departamentos de desenvolvimento de
+                                                sistemas em organizações governamentais e não governamentais, podendo
+                                                também atuar como profissional autônomo.</div>
+                                            <h2 class="card-title ">DESENVOLVIMENTO DE SISTEMAS INTEGRADO AO ENSINO
+                                                MÉDIO</h2>
+                                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                    style="width: 19px;height: 17px;"
+                                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                    alt=""></h5>
+                                            <p class="card-text">Etec Prof. Armando Bayeux da Silva</p>
+                                            <a href="https://www.etecbayeux.com.br/?c=Desenvolvimento_de_Sistemas_Integrado_ao_Ensino_Medio"
+                                                class="btn"
+                                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                                DETALHES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 mt-4">
+                                    <div class="card">
+                                        <img width="300px" height="300px"
+                                            src="https://www.undb.edu.br/hubfs/administra%C3%A7%C3%A3o%20undb-1.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="card-footer" style="text-align: center;">O TÉCNICO EM
+                                                ADMINISTRAÇÃO é o profissional que adota postura ética na execução da
+                                                rotina administrativa, na elaboração do planejamento da produção e
+                                                materiais, recursos humanos, financeiros e mercadológicos. Realiza
+                                                atividades de controles e auxilia nos processos de direção utilizando
+                                                ferramentas da informática básica. Fomenta ideias e práticas
+                                                empreendedoras. Desempenha suas atividades observando as normas de
+                                                segurança, saúde e higiene do trabalho, bem como as de preservação
+                                                ambiental. O curso de TÉCNICO EM ADMINISTRAÇÃO INTEGRADO AO ENSINO MÉDIO
+                                                apresenta em sua grade curricular, curriculos voltados ao Ensino Médio
+                                                (Lingua Portuguesa e Literatura: Artes (apenas no 1º Módulo); Educação
+                                                Física; História; Geografia; Filosofia; Sociologia; Matemática; Física;
+                                                Química; Biologia e Linguas Estrangeiras Modernas: Inglês e Espanhol
+                                                (apenas no 2º e 3º Módulo), integrados ao Técnico, que discorrem juntos
+                                                durante o módulo em desenvolvimento.
+                                                Eixo Tecnológico: GESTÃO E NEGÓCIOS
+                                                Mercado de trabalho: Instituições públicas, privadas e do terceiro
+                                                setor.</div>
+                                            <h2 class="card-title ">ADMINISTRAÇÃO INTEGRADO AO ENSINO MÉDIO</h2>
+                                            <h5 class="card-subtitle">LOCAL <img class="mb-2 mx-2"
+                                                    style="width: 19px;height: 17px;"
+                                                    src="https://img.freepik.com/free-icon/dwelling-house_318-1861.jpg?w=2000"
+                                                    alt=""></h5>
+                                            <p class="card-text">E.E. Heloísa Lemenhe Marasca (Extensão)</p>
+                                            <a href="https://www.etecbayeux.com.br/?c=Administracao_Integrado_ao_Ensino_Medio"
+                                                class="btn"
+                                                style="background-color: rgb(44, 44, 44);color: lightblue; border-radius: 1cm;">MAIS
+                                                DETALHES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- FIM DOS CARDS -->
+
+                    <!-- FOOTER -->
+                    <div class="container-fluid mt-auto">
+                        <footer
+                            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                            <p class="col-md-4 mb-0 text-muted">&copy; Nenhuma momentaneamente</p>
+                            <img src="imgs/logos/cps_brasao_gesp_horizontal_cps_horizontal_cor.png" style="width:30vh;"
+                                alt="brasao CPS e do Estado de SP'"></a>
+
+                            <ul class="nav col-md-4 justify-content-end">
+                                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">ESCOLA</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">NOTICIAS</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">LOCALIZAÇÃO</a>
+                                </li>
+                                <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">SOBRE</a>
+                                </li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">CONTATO</a></li>
+                            </ul>
+                        </footer>
+                    </div>
+                    <!-- FIM DO FOOTER -->
+</body>
+</html>

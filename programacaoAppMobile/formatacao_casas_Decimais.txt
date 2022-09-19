@@ -1,0 +1,7 @@
+	DecimalFormat N = new DecimalFormat("#,###.##");
+
+
+        jTextField5.setText("Média: " + String.valueOf(N.format(media)));
+
+
+	import java.text.DecimalFormat;

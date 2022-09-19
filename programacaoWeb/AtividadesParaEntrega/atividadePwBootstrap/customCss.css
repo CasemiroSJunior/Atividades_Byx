@@ -1,0 +1,32 @@
+@media (max-width: 768px){
+.dropdown-menu li a {white-space: normal;}
+}
+
+@media (min-width: 769px){
+.dropdown-menu li a {white-space: pre !important;}
+}
+.img{
+        width: auto !important;
+        max-height: 50vh !important;
+}
+.h5{
+    background-color: rgba(0, 0, 0, 0.685) !important;
+}
+.custom-bg{
+    background-color:red ;
+}
+.h3-custom{
+    text-align: center;
+}
+.margin-custom{
+    margin-top: 2%;
+}
+.div-custom{
+    height: 2%;
+    width: 100%;
+    background-color: black;
+}
+hr{
+    border:10px solid black;
+    width: 100%;
+}
